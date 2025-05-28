@@ -49,7 +49,7 @@ def main():
                     }
                 ],
                 "images": [
-                    f"/root/autodl-tmp/dataset/rpa_action/images/{item['file_upload']}"
+                    f"/root/autodl-tmp/dataset/rpa_action/images/{item['file_upload'].split('-')[-1]}"
                 ]
             })
     write_json(output_data, output_file)
