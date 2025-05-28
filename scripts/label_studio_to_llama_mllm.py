@@ -1,6 +1,8 @@
 import json
+import time
 from copy import deepcopy
 from pathlib import Path
+from PIL import ImageDraw, Image
 
 SYSTEM_PROMPT_1 = "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标"
 SYSTEM_PROMPT_2 = "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以XML格式输出其坐标 <points x y>object</points>"
@@ -30,7 +32,6 @@ def main():
                 continue
 
             result_value = result_item['value']
-
             _data = {
                 "messages": [
                     {
@@ -42,12 +43,7 @@ def main():
                         "from": "human"
                     },
                     {
-                        "value": f'{{\n"bbox_2d": ['
-                                 f'{int(result_value["x"])}, '
-                                 f'{int(result_value["y"])}, '
-                                 f'{int(result_value["x"] + result_value["width"])}, '
-                                 f'{int(result_value["y"] + result_value["height"])}'
-                                 f']\n}}',
+                        "value": '',
                         "from": "gpt"
                     }
                 ],
@@ -58,14 +54,14 @@ def main():
 
             _data['messages'][0]['value'] = SYSTEM_PROMPT_1
             _data['messages'][2]['value'] = (f'{{"bbox_2d": ['
-                                             f'{int(result_value["x"])}, '
-                                             f'{int(result_value["y"])}, '
-                                             f'{int(result_value["x"] + result_value["width"])}, '
-                                             f'{int(result_value["y"] + result_value["height"])}]}}')
+                                             f'{int(result_value["x"] * result_item["original_height"] / 100)}, '
+                                             f'{int(result_value["y"] * result_item["original_width"] / 100)}, '
+                                             f'{int((result_value["x"] + result_value["width"]) * result_item["original_width"] / 100)}, '
+                                             f'{int((result_value["y"] + result_value["height"]) * result_item["original_height"] / 100)}]}}')
             output_data.append(deepcopy(_data))
             _data['messages'][0]['value'] = SYSTEM_PROMPT_2
-            _data['messages'][2]['value'] = (f'<points x1="{int(result_value["x"] + result_value["width"] / 2)}" '
-                                             f'y1="{int(result_value["y"] + result_value["height"] / 2)}" '
+            _data['messages'][2]['value'] = (f'<points x1="{int((result_value["x"] + result_value["width"] / 2) * result_item["original_width"] / 100)}, ''" '
+                                             f'y1="{int((result_value["y"] + result_value["height"] / 2) * result_item["original_height"] / 100)}">'
                                              f'alt="{result_value["text"][0]}">{result_value["text"][0]}</points>')
             output_data.append(deepcopy(_data))
 
