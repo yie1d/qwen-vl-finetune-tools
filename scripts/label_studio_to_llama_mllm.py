@@ -100,7 +100,7 @@ def main():
                         "from": "human"
                     },
                     {
-                        "value": bbox,
+                        "value": f'{{\n"bbox_2d": {bbox}\n}}',
                         "from": "gpt"
                     }
                 ],
