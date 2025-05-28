@@ -105,7 +105,7 @@ def main():
                     }
                 ],
                 "images": [
-                    f"/root/autodl-tmp/dataset/rpa_action/images/{item['file_upload'].split('-')[-1]}"
+                    f"/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/{item['file_upload'].split('-')[-1]}"
                 ]
             })
 
