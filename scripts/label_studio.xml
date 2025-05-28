@@ -1,0 +1,7 @@
+<View>
+  <Image name="image" value="$image"/>
+  <Rectangle name="rect" toName="image"/>
+  <View visibleWhen="region-selected">
+    <TextArea name="comment" toName="image" perRegion="true" editable="true" placeholder="为选中的框添加注释" rows="3"/>
+  </View>
+</View>
