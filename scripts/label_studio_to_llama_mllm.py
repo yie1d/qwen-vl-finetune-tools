@@ -87,7 +87,8 @@ def main():
                 (result_value["y"] + result_value["height"]) * result_item['original_height'] / 100
             ]
             bbox = deepcopy(
-                convert_to_qwen25vl_format(bbox, result_item['original_height'], result_item['original_width']))
+                convert_to_qwen25vl_format(bbox, result_item['original_height'], result_item['original_width'],
+                                           min_pixels=200704, max_pixels=1053696))
 
             output_data.append({
                 "messages": [
