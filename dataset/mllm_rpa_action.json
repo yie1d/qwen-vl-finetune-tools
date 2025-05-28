@@ -1,0 +1,192 @@
+[
+    {
+        "messages": [
+            {
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "from": "system"
+            },
+            {
+                "value": "<image>相关客户选择泛微上海",
+                "from": "human"
+            },
+            {
+                "value": "{\n\"bbox_2d\": [231, 605, 287, 636]\n}",
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            "/root/autodl-tmp/dataset/rpa_action/images/25795df22868431b861389c0f4ab0ad3.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "from": "system"
+            },
+            {
+                "value": "<image>请假类型选择年假",
+                "from": "human"
+            },
+            {
+                "value": "{\n\"bbox_2d\": [284, 533, 319, 561]\n}",
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            "/root/autodl-tmp/dataset/rpa_action/images/b159344fae624693a8e7697456fe7524.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "from": "system"
+            },
+            {
+                "value": "<image>相关客户选择泛微上海",
+                "from": "human"
+            },
+            {
+                "value": "{\n\"bbox_2d\": [232, 316, 285, 341]\n}",
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            "/root/autodl-tmp/dataset/rpa_action/images/ebc23784d7664e10a1d4fba875335562.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "from": "system"
+            },
+            {
+                "value": "<image>相关客户选择慧穗数字科技（上海）有限公司",
+                "from": "human"
+            },
+            {
+                "value": "{\n\"bbox_2d\": [232, 95, 399, 116]\n}",
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            "/root/autodl-tmp/dataset/rpa_action/images/ebc23784d7664e10a1d4fba875335562.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "from": "system"
+            },
+            {
+                "value": "<image>广州维森股份有限公司",
+                "from": "human"
+            },
+            {
+                "value": "{\n\"bbox_2d\": [232, 179, 354, 202]\n}",
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            "/root/autodl-tmp/dataset/rpa_action/images/ebc23784d7664e10a1d4fba875335562.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "from": "system"
+            },
+            {
+                "value": "<image>请假类型选择年假",
+                "from": "human"
+            },
+            {
+                "value": "{\n\"bbox_2d\": [282, 265, 321, 283]\n}",
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            "/root/autodl-tmp/dataset/rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "from": "system"
+            },
+            {
+                "value": "<image>请假类型选择事假",
+                "from": "human"
+            },
+            {
+                "value": "{\n\"bbox_2d\": [281, 179, 316, 201]\n}",
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            "/root/autodl-tmp/dataset/rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "from": "system"
+            },
+            {
+                "value": "<image>请假类型选择带薪病假",
+                "from": "human"
+            },
+            {
+                "value": "{\n\"bbox_2d\": [281, 236, 340, 259]\n}",
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            "/root/autodl-tmp/dataset/rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "from": "system"
+            },
+            {
+                "value": "<image>请假类型选择产假",
+                "from": "human"
+            },
+            {
+                "value": "{\n\"bbox_2d\": [285, 405, 318, 426]\n}",
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            "/root/autodl-tmp/dataset/rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
+        ]
+    },
+    {
+        "messages": [
+            {
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "from": "system"
+            },
+            {
+                "value": "<image>请假类型选择陪产假",
+                "from": "human"
+            },
+            {
+                "value": "{\n\"bbox_2d\": [286, 321, 327, 344]\n}",
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            "/root/autodl-tmp/dataset/rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
+        ]
+    }
+]

@@ -1,0 +1,10 @@
+{
+  "mllm_rpa_action": {
+    "file_name": "mllm_rpa_action.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    }
+  }
+}
