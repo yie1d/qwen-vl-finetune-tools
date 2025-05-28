@@ -60,7 +60,7 @@ def main():
                                              f'{int((result_value["y"] + result_value["height"]) * result_item["original_height"] / 100)}]}}')
             output_data.append(deepcopy(_data))
             _data['messages'][0]['value'] = SYSTEM_PROMPT_2
-            _data['messages'][2]['value'] = (f'<points x1="{int((result_value["x"] + result_value["width"] / 2) * result_item["original_width"] / 100)}, ''" '
+            _data['messages'][2]['value'] = (f'<points x1="{int((result_value["x"] + result_value["width"] / 2) * result_item["original_width"] / 100)}" '
                                              f'y1="{int((result_value["y"] + result_value["height"] / 2) * result_item["original_height"] / 100)}">'
                                              f'alt="{result_value["text"][0]}">{result_value["text"][0]}</points>')
             output_data.append(deepcopy(_data))
