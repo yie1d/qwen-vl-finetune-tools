@@ -42,7 +42,7 @@ bf16: true
 ddp_timeout: 180000000
 resume_from_checkpoint: null
 flash_attn: fa2
-freeze_vision_tower: true
+freeze_vision_tower: false
 freeze_multi_modal_projector: false
 
 
