@@ -6,5 +6,21 @@
       "messages": "messages",
       "images": "images"
     }
+  },
+  "mllm_showui-desktop": {
+    "file_name": "mllm_showui-desktop.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    }
+  },
+  "mllm_showui-web": {
+    "file_name": "mllm_showui-web.json",
+    "formatting": "sharegpt",
+    "columns": {
+      "messages": "messages",
+      "images": "images"
+    }
   }
 }

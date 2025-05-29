@@ -1,11 +1,14 @@
 import json
 import math
 
-from copy import deepcopy
 from pathlib import Path
 
-SYSTEM_PROMPT_1 = "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标"
-SYSTEM_PROMPT_2 = "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以XML格式输出其坐标 <points x y>object</points>"
+DATASET_PATH = '/root/autodl-tmp/qwen-vl-finetune-tools/dataset'
+SYSTEM_PROMPT = ("基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐"
+                 "标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]")
+
+MIN_PIXELS = 3136
+MAX_PIXELS = 12845056
 
 
 # This is the resize function of Qwen2.5-VL
@@ -67,53 +70,27 @@ def write_json(data, file_path: Path):
         json.dump(data, f, ensure_ascii=False, indent=4)
 
 
-def main():
-    input_file = Path("../dataset/project-1-at-2025-05-28-10-06-a8720a12.json")
-    output_file = Path("../dataset/mllm_rpa_action.json")
-    input_data = read_json(input_file)
-
-    output_data = []
-
-    for item in input_data:
-        for result_item in item['annotations'][0]['result']:
-            if result_item['type'] != 'textarea':
-                continue
-            result_value = result_item['value']
-
-            bbox = [
-                result_value["x"] * result_item['original_width'] / 100,
-                result_value["y"] * result_item['original_height'] / 100,
-                (result_value['x'] + result_value["width"]) * result_item['original_width'] / 100,
-                (result_value["y"] + result_value["height"]) * result_item['original_height'] / 100
-            ]
-            bbox = deepcopy(
-                convert_to_qwen25vl_format(bbox, result_item['original_height'], result_item['original_width'],
-                                           min_pixels=200704, max_pixels=1053696))
-
-            output_data.append({
-                "messages": [
-                    {
-                        "value": SYSTEM_PROMPT_1,
-                        "from": "system"
-                    },
-                    {
-                        "value": f"<image>{result_value['text'][0]}",
-                        "from": "human"
-                    },
-                    {
-                        "value": f'{{\n"bbox_2d": {bbox}\n}}',
-                        "from": "gpt"
-                    }
-                ],
-                "images": [
-                    f"/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/{item['file_upload'].split('-')[-1]}"
-                ]
-            })
-
-
-
-    write_json(output_data, output_file)
-
-
-if __name__ == '__main__':
-    main()
+def create_message(
+    prompt: str,
+    bbox: list[int],
+    image_path: str
+):
+    return {
+        "messages": [
+            {
+                "value": SYSTEM_PROMPT,
+                "from": "system"
+            },
+            {
+                "value": f"<image>{prompt}",
+                "from": "human"
+            },
+            {
+                "value": f'[{{"bbox_2d": {bbox}}}]',
+                "from": "gpt"
+            }
+        ],
+        "images": [
+            image_path
+        ]
+    }

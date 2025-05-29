@@ -2,7 +2,7 @@
     {
         "messages": [
             {
-                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]",
                 "from": "system"
             },
             {
@@ -10,18 +10,18 @@
                 "from": "human"
             },
             {
-                "value": "{\n\"bbox_2d\": [235, 629, 293, 660]\n}",
+                "value": "[{\"bbox_2d\": [495, 1304, 616, 1369]}]",
                 "from": "gpt"
             }
         ],
         "images": [
-            "/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/25795df22868431b861389c0f4ab0ad3.png"
+            "rpa_action/images/25795df22868431b861389c0f4ab0ad3.png"
         ]
     },
     {
         "messages": [
             {
-                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]",
                 "from": "system"
             },
             {
@@ -29,18 +29,18 @@
                 "from": "human"
             },
             {
-                "value": "{\n\"bbox_2d\": [290, 554, 326, 583]\n}",
+                "value": "[{\"bbox_2d\": [609, 1148, 685, 1209]}]",
                 "from": "gpt"
             }
         ],
         "images": [
-            "/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/b159344fae624693a8e7697456fe7524.png"
+            "rpa_action/images/b159344fae624693a8e7697456fe7524.png"
         ]
     },
     {
         "messages": [
             {
-                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]",
                 "from": "system"
             },
             {
@@ -48,18 +48,18 @@
                 "from": "human"
             },
             {
-                "value": "{\n\"bbox_2d\": [236, 328, 291, 355]\n}",
+                "value": "[{\"bbox_2d\": [497, 681, 611, 735]}]",
                 "from": "gpt"
             }
         ],
         "images": [
-            "/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/ebc23784d7664e10a1d4fba875335562.png"
+            "rpa_action/images/ebc23784d7664e10a1d4fba875335562.png"
         ]
     },
     {
         "messages": [
             {
-                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]",
                 "from": "system"
             },
             {
@@ -67,18 +67,18 @@
                 "from": "human"
             },
             {
-                "value": "{\n\"bbox_2d\": [236, 99, 407, 121]\n}",
+                "value": "[{\"bbox_2d\": [497, 205, 855, 251]}]",
                 "from": "gpt"
             }
         ],
         "images": [
-            "/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/ebc23784d7664e10a1d4fba875335562.png"
+            "rpa_action/images/ebc23784d7664e10a1d4fba875335562.png"
         ]
     },
     {
         "messages": [
             {
-                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]",
                 "from": "system"
             },
             {
@@ -86,18 +86,18 @@
                 "from": "human"
             },
             {
-                "value": "{\n\"bbox_2d\": [236, 186, 362, 210]\n}",
+                "value": "[{\"bbox_2d\": [497, 385, 760, 435]}]",
                 "from": "gpt"
             }
         ],
         "images": [
-            "/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/ebc23784d7664e10a1d4fba875335562.png"
+            "rpa_action/images/ebc23784d7664e10a1d4fba875335562.png"
         ]
     },
     {
         "messages": [
             {
-                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]",
                 "from": "system"
             },
             {
@@ -105,18 +105,18 @@
                 "from": "human"
             },
             {
-                "value": "{\n\"bbox_2d\": [288, 275, 328, 294]\n}",
+                "value": "[{\"bbox_2d\": [605, 571, 689, 610]}]",
                 "from": "gpt"
             }
         ],
         "images": [
-            "/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
+            "rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
         ]
     },
     {
         "messages": [
             {
-                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]",
                 "from": "system"
             },
             {
@@ -124,18 +124,18 @@
                 "from": "human"
             },
             {
-                "value": "{\n\"bbox_2d\": [287, 186, 323, 209]\n}",
+                "value": "[{\"bbox_2d\": [603, 385, 678, 433]}]",
                 "from": "gpt"
             }
         ],
         "images": [
-            "/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
+            "rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
         ]
     },
     {
         "messages": [
             {
-                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]",
                 "from": "system"
             },
             {
@@ -143,18 +143,18 @@
                 "from": "human"
             },
             {
-                "value": "{\n\"bbox_2d\": [287, 245, 347, 269]\n}",
+                "value": "[{\"bbox_2d\": [603, 508, 730, 558]}]",
                 "from": "gpt"
             }
         ],
         "images": [
-            "/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
+            "rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
         ]
     },
     {
         "messages": [
             {
-                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]",
                 "from": "system"
             },
             {
@@ -162,18 +162,18 @@
                 "from": "human"
             },
             {
-                "value": "{\n\"bbox_2d\": [291, 420, 325, 442]\n}",
+                "value": "[{\"bbox_2d\": [611, 872, 683, 917]}]",
                 "from": "gpt"
             }
         ],
         "images": [
-            "/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
+            "rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
         ]
     },
     {
         "messages": [
             {
-                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标",
+                "value": "基于给你的截图，我给你一个操作需求，你给我返回相关操作元素的bbox坐标，以JSON格式输出其bbox坐标坐标格式为[x1, y1, x2, y2]，其中(x1,y1)是左上角，(x2,y2)是右下角。格式为[{\"bbox_2d\": [x1, y1, x2, y2]}]",
                 "from": "system"
             },
             {
@@ -181,12 +181,12 @@
                 "from": "human"
             },
             {
-                "value": "{\n\"bbox_2d\": [292, 334, 334, 358]\n}",
+                "value": "[{\"bbox_2d\": [614, 692, 702, 742]}]",
                 "from": "gpt"
             }
         ],
         "images": [
-            "/root/autodl-tmp/qwen-vl-finetune-tools/dataset/rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
+            "rpa_action/images/fd79ec0d116f4190b1780a31c2751690.png"
         ]
     }
 ]

@@ -1,0 +1,564 @@
+[
+    {
+        "id": 1,
+        "annotations": [
+            {
+                "id": 1,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 17.15306513409961,
+                            "y": 83.17241379310346,
+                            "width": 4.194636015325679,
+                            "height": 4.1379310344827624,
+                            "rotation": 0
+                        },
+                        "id": "OKcABj6fij",
+                        "from_name": "rect",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 17.15306513409961,
+                            "y": 83.17241379310346,
+                            "width": 4.194636015325679,
+                            "height": 4.1379310344827624,
+                            "rotation": 0,
+                            "text": [
+                                "相关客户选择泛微上海"
+                            ]
+                        },
+                        "id": "OKcABj6fij",
+                        "from_name": "comment",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-28T02:02:48.300621Z",
+                "updated_at": "2025-05-28T02:02:48.300621Z",
+                "draft_created_at": "2025-05-28T02:02:34.103632Z",
+                "lead_time": 25.172,
+                "prediction": {},
+                "result_count": 1,
+                "unique_id": "1dbca4ed-7831-4b3f-9c88-77b7d65ab8a9",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 1,
+                "project": 1,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "88f60272-25795df22868431b861389c0f4ab0ad3.png",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "image": "\/data\/upload\/1\/88f60272-25795df22868431b861389c0f4ab0ad3.png"
+        },
+        "meta": {},
+        "created_at": "2025-05-28T02:01:30.231599Z",
+        "updated_at": "2025-05-28T02:02:48.332602Z",
+        "inner_id": 1,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 1,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 2,
+        "annotations": [
+            {
+                "id": 2,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 21.122988505747127,
+                            "y": 73.24137931034483,
+                            "width": 2.621647509578544,
+                            "height": 3.8620689655172526,
+                            "rotation": 0
+                        },
+                        "id": "XJx_0oE3bY",
+                        "from_name": "rect",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 21.122988505747127,
+                            "y": 73.24137931034483,
+                            "width": 2.621647509578544,
+                            "height": 3.8620689655172526,
+                            "rotation": 0,
+                            "text": [
+                                "请假类型选择年假"
+                            ]
+                        },
+                        "id": "XJx_0oE3bY",
+                        "from_name": "comment",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-28T02:03:08.657762Z",
+                "updated_at": "2025-05-28T02:03:08.657762Z",
+                "draft_created_at": "2025-05-28T02:03:00.651888Z",
+                "lead_time": 19.993,
+                "prediction": {},
+                "result_count": 1,
+                "unique_id": "5e47f326-7966-4324-87c4-569473c814de",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 2,
+                "project": 1,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "1c20afa9-b159344fae624693a8e7697456fe7524.png",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "image": "\/data\/upload\/1\/1c20afa9-b159344fae624693a8e7697456fe7524.png"
+        },
+        "meta": {},
+        "created_at": "2025-05-28T02:01:30.231599Z",
+        "updated_at": "2025-05-28T02:03:08.689140Z",
+        "inner_id": 2,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 1,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 3,
+        "annotations": [
+            {
+                "id": 3,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 17.227969348659002,
+                            "y": 43.44827586206896,
+                            "width": 3.9699233716475106,
+                            "height": 3.448275862068968,
+                            "rotation": 0
+                        },
+                        "id": "decpfg6icX",
+                        "from_name": "rect",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 17.227969348659002,
+                            "y": 43.44827586206896,
+                            "width": 3.9699233716475106,
+                            "height": 3.448275862068968,
+                            "rotation": 0,
+                            "text": [
+                                "相关客户选择泛微上海"
+                            ]
+                        },
+                        "id": "decpfg6icX",
+                        "from_name": "comment",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 17.227969348659002,
+                            "y": 13.10344827586207,
+                            "width": 12.43409961685824,
+                            "height": 2.8965517241379306,
+                            "rotation": 0
+                        },
+                        "id": "jBcH_NWDWn",
+                        "from_name": "rect",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 17.227969348659002,
+                            "y": 13.10344827586207,
+                            "width": 12.43409961685824,
+                            "height": 2.8965517241379306,
+                            "rotation": 0,
+                            "text": [
+                                "相关客户选择慧穗数字科技（上海）有限公司"
+                            ]
+                        },
+                        "id": "jBcH_NWDWn",
+                        "from_name": "comment",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 17.227969348659002,
+                            "y": 24.551724137931036,
+                            "width": 9.138314176245213,
+                            "height": 3.172413793103445,
+                            "rotation": 0
+                        },
+                        "id": "R7RyxVla1B",
+                        "from_name": "rect",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 17.227969348659002,
+                            "y": 24.551724137931036,
+                            "width": 9.138314176245213,
+                            "height": 3.172413793103445,
+                            "rotation": 0,
+                            "text": [
+                                "广州维森股份有限公司"
+                            ]
+                        },
+                        "id": "R7RyxVla1B",
+                        "from_name": "comment",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-28T02:03:24.778770Z",
+                "updated_at": "2025-05-28T02:06:03.557443Z",
+                "draft_created_at": "2025-05-28T02:03:19.956433Z",
+                "lead_time": 93.238,
+                "prediction": {},
+                "result_count": 3,
+                "unique_id": "0cd105f8-7d8a-45da-8265-d9403c3a5e8e",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 3,
+                "project": 1,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "2091f633-ebc23784d7664e10a1d4fba875335562.png",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "image": "\/data\/upload\/1\/2091f633-ebc23784d7664e10a1d4fba875335562.png"
+        },
+        "meta": {},
+        "created_at": "2025-05-28T02:01:30.231599Z",
+        "updated_at": "2025-05-28T02:06:03.617055Z",
+        "inner_id": 3,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 1,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 4,
+        "annotations": [
+            {
+                "id": 4,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 20.973180076628353,
+                            "y": 36.41379310344828,
+                            "width": 2.9212643678160894,
+                            "height": 2.4827586206896513,
+                            "rotation": 0
+                        },
+                        "id": "wNN8EeAnPl",
+                        "from_name": "rect",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 20.973180076628353,
+                            "y": 36.41379310344828,
+                            "width": 2.9212643678160894,
+                            "height": 2.4827586206896513,
+                            "rotation": 0,
+                            "text": [
+                                "请假类型选择年假"
+                            ]
+                        },
+                        "id": "wNN8EeAnPl",
+                        "from_name": "comment",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 20.898275862068967,
+                            "y": 24.551724137931036,
+                            "width": 2.6216475095785405,
+                            "height": 3.034482758620687,
+                            "rotation": 0
+                        },
+                        "id": "eRSwm1j9uh",
+                        "from_name": "rect",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 20.898275862068967,
+                            "y": 24.551724137931036,
+                            "width": 2.6216475095785405,
+                            "height": 3.034482758620687,
+                            "rotation": 0,
+                            "text": [
+                                "请假类型选择事假"
+                            ]
+                        },
+                        "id": "eRSwm1j9uh",
+                        "from_name": "comment",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 20.898275862068978,
+                            "y": 32.41379310344827,
+                            "width": 4.41934865900383,
+                            "height": 3.172413793103457,
+                            "rotation": 0
+                        },
+                        "id": "j8qMH3Eg9w",
+                        "from_name": "rect",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 20.898275862068978,
+                            "y": 32.41379310344827,
+                            "width": 4.41934865900383,
+                            "height": 3.172413793103457,
+                            "rotation": 0,
+                            "text": [
+                                "请假类型选择带薪病假"
+                            ]
+                        },
+                        "id": "j8qMH3Eg9w",
+                        "from_name": "comment",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 21.197892720306513,
+                            "y": 55.58620689655174,
+                            "width": 2.471839080459769,
+                            "height": 2.8965517241379284,
+                            "rotation": 0
+                        },
+                        "id": "yvBUcAgbsU",
+                        "from_name": "rect",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 21.197892720306513,
+                            "y": 55.58620689655174,
+                            "width": 2.471839080459769,
+                            "height": 2.8965517241379284,
+                            "rotation": 0,
+                            "text": [
+                                "请假类型选择产假"
+                            ]
+                        },
+                        "id": "yvBUcAgbsU",
+                        "from_name": "comment",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 21.2727969348659,
+                            "y": 44.13793103448276,
+                            "width": 3.071072796934864,
+                            "height": 3.172413793103445,
+                            "rotation": 0
+                        },
+                        "id": "-gGqAovsNM",
+                        "from_name": "rect",
+                        "to_name": "image",
+                        "type": "rectangle",
+                        "origin": "manual"
+                    },
+                    {
+                        "original_width": 2880,
+                        "original_height": 1564,
+                        "image_rotation": 0,
+                        "value": {
+                            "x": 21.2727969348659,
+                            "y": 44.13793103448276,
+                            "width": 3.071072796934864,
+                            "height": 3.172413793103445,
+                            "rotation": 0,
+                            "text": [
+                                "请假类型选择陪产假"
+                            ]
+                        },
+                        "id": "-gGqAovsNM",
+                        "from_name": "comment",
+                        "to_name": "image",
+                        "type": "textarea",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2025-05-28T02:04:40.062084Z",
+                "updated_at": "2025-05-28T02:04:40.062084Z",
+                "draft_created_at": "2025-05-28T02:03:36.116989Z",
+                "lead_time": 74.938,
+                "prediction": {},
+                "result_count": 5,
+                "unique_id": "277ed1a2-5742-4f38-9671-fa793ac1405c",
+                "import_id": null,
+                "last_action": null,
+                "bulk_created": false,
+                "task": 4,
+                "project": 1,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "fe2400e6-fd79ec0d116f4190b1780a31c2751690.png",
+        "drafts": [],
+        "predictions": [],
+        "data": {
+            "image": "\/data\/upload\/1\/fe2400e6-fd79ec0d116f4190b1780a31c2751690.png"
+        },
+        "meta": {},
+        "created_at": "2025-05-28T02:01:30.231599Z",
+        "updated_at": "2025-05-28T02:04:40.098089Z",
+        "inner_id": 4,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 0,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 1,
+        "updated_by": 1,
+        "comment_authors": []
+    }
+]
